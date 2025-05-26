@@ -1,5 +1,3 @@
-<details>
-<summary><strong>📄 Paste this into app.py</strong></summary>
 import streamlit as st
 import yfinance as yf
 import pandas as pd
@@ -66,4 +64,3 @@ if selected_tickers:
         st.plotly_chart(fig, use_container_width=True)
 else:
     st.warning("Please select at least one ticker.")
-</details>
